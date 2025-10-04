@@ -1,6 +1,6 @@
-# LeftoverLink – Local SwiftUI Prototype
+# LeftoverLink – SwiftUI Prototype
 
-LeftoverLink is a local‑only SwiftUI prototype designed to demonstrate a polished food‑sharing app for students. This version runs entirely in memory without any network or Firebase dependencies. It implements a clean MVVM architecture with a protocol‑based repository, a mock data source, and a modern, colourful user interface inspired by real apps.
+LeftoverLink is a SwiftUI prototype designed to demonstrate a polished food‑sharing app for students. This version runs entirely in memory without any network or Firebase dependencies. It implements a clean MVVM architecture with a protocol‑based repository, a mock data source, and a modern, colourful user interface inspired by real apps.
 
 ## Features
 
