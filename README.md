@@ -43,9 +43,3 @@ LeftoverLink/
 1. Open `LeftoverLink.xcodeproj` (or create a new SwiftUI iOS project and copy this directory into it). The project requires Xcode 15+ and iOS 17+.
 2. Select an iOS simulator (e.g. **iPhone 15 Pro**) and press **⌘R** to run.
 3. On launch you will see five seeded posts. Use the search bar and filter pills to explore. Add new posts from the **New Post** tab and observe them appear at the top of the list. Swipe left on a row to delete.
-
-## What’s Mocked
-
-This prototype does not persist data across launches or sync with a backend. The `MockListingRepository` stores listings in memory only. There is no Firebase, network, or authentication code. To connect to a real database later, implement `ListingRepository` and provide it to `ListingListViewModel` in `LeftoverLinkApp`.
-
-Enjoy exploring LeftoverLink! Feel free to build upon this foundation by adding persistence, authentication, chat or map‑based pickup scheduling.
